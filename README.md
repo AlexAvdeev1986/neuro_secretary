@@ -36,8 +36,8 @@ ffmpeg -i input_video.mp4 -vn -ar 44100 -ac 2 -b:a 192k output_audio.wav
 pip install yt-dlp
 
 # Установка ffmpeg (в Ubuntu)
-sudo apt update
-sudo apt install ffmpeg
+sudo dnf update
+sudo dnf install ffmpeg
 
 
 1. Установка необходимых библиотек
@@ -51,4 +51,8 @@ pip install openai python-telegram-bot whisper noisereduce numpy soundfile scipy
 Выполните команду:
 
 pip install noisereduce pydub numpy scipy openai git+https://github.com/openai/whisper.git
+
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
 
