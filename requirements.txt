@@ -1,0 +1,8 @@
+python-telegram-bot==20.3
+openai>=1.0
+whisper-openai
+yt-dlp
+noisereduce
+soundfile
+numpy
+python-dotenv

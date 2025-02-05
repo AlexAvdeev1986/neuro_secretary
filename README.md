@@ -1,6 +1,7 @@
 # neuro_secretary
  neuro_secretary
 
+t.me/NeuroSecretaryUserbot
 Создайте виртуальное окружение
 python -m venv venv
 
@@ -20,6 +21,12 @@ bash
 
 yt-dlp https://www.youtube.com/watch?v=пример_идентификатора
 
+Для быстрого скачивания (360p со звуком):
+
+bash
+Copy
+yt-dlp -f 18 https://youtu.be/O7NSH2SAwRc
+
 ffmpeg
 ffmpeg – мощный инструмент для обработки мультимедийных файлов, который позволит извлечь аудио из видео.
 онвертация видео в аудио с помощью ffmpeg
@@ -29,7 +36,7 @@ bash
 Копировать
 Редактировать
 
-ffmpeg -i input_video.mp4 -vn -ar 44100 -ac 2 -b:a 192k output_audio.wav
+ffmpeg -i АльфаКартаслюбимымкэшбэком[43592d8339760e2a41649a37d337b182].mp4 -vn -ar 44100 -ac 2 -b:a 192k output_audio.wav
 
 
 # Установка yt-dlp (через pip)
