@@ -9,7 +9,7 @@ pip install openai-whisper
 ```
 Если у вас нет `ffmpeg`, установите его:
 ```bash
-sudo apt install ffmpeg  # для Linux
+sudo dnf install ffmpeg  # для Linux
 brew install ffmpeg      # для macOS
 ```
 
